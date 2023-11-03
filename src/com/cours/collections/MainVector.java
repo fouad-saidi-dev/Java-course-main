@@ -29,6 +29,7 @@ public class MainVector {
        
        
        System.out.println("Vector : "+mammals);
+       
        // using addAll()
        Vector<String> animals = new Vector<String>();
        animals.add("Corocodile");

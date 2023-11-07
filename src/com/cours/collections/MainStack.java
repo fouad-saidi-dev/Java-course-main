@@ -1,5 +1,6 @@
 package com.cours.collections;
 
+import java.util.Iterator;
 import java.util.Stack;
 
 public class MainStack {
@@ -33,6 +34,10 @@ public class MainStack {
        Boolean result = animals.empty();
        System.out.println("Is empty ? " +result);
        
+       Iterator<String> iterator = animals.iterator();
+       while (iterator.hasNext()) {
+		System.out.println(iterator.next());
+	}
        // delete 
        //String element = animals.pop();
        //System.out.println("Removed Elment : "+element);

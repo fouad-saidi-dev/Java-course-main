@@ -13,6 +13,7 @@ public class MainTreeMap {
 		// insert elements
 		values.put("Second", 2);
 		values.put("First", 1);
+		values.put("Third", 3);
 		System.out.println("Map using TreeMap : "+values);
 		
 		// replace

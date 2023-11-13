@@ -43,6 +43,7 @@ public class MainListIterator {
 		int index3 = iterate.previousIndex();
 		System.out.println("Position of previous element: "+index3);
 
+		
 	}
 
 }
